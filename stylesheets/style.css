@@ -1690,3 +1690,9 @@ article.post-single .entry-post .entry-header .entry-meta-post li.topic {
 	direction: ltr!important;
 
 }
+
+.phone-arab-dir {
+
+	direction: ltr;
+	unicode-bidi: embed;
+}
