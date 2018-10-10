@@ -1684,3 +1684,8 @@ article.post-single .entry-post .entry-header .entry-meta-post li.topic {
 .p-r-30 {
 	padding-right: 30px;
 }
+
+
+.simple-lightbox {
+	direction: ltr!important;
+}
