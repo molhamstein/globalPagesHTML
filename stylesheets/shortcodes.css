@@ -458,7 +458,7 @@
 
 .flat-imagebox.background {
 	background-color:#ecf0f1;
-	padding: 100px 0 100px;
+	padding: 100px 0 10px;
 }
 
 .flat-imagebox.style3 {
@@ -502,11 +502,11 @@
 
 
 .featured-box-flex {
-	width: 45%;
+	width: 48%;
 	background-color: white;
 	display: flex;
 	align-items: stretch;
-	height: 200px;
+	height: 218px;
 	margin: 6px auto;
 	padding: 0;
 	border-radius: 7px;
@@ -1296,7 +1296,7 @@ align-items: stretch;
 /* guide page
 -------------------------------------------------------------- */
 .sidebar {
-	
+
 }
 /* Flat Iconbox Style1
 -------------------------------------------------------------- */
@@ -1359,7 +1359,7 @@ align-items: stretch;
 /* Flat Team
 -------------------------------------------------------------- */
 .flat-team {
-	padding: 80px 0 73px;
+	padding: 10px 0 73px;
 }
 
 .flat-team .flat-row-title {
