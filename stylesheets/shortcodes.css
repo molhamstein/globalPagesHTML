@@ -520,6 +520,8 @@ display: flex;
 align-items: stretch;
 height: 100%;
 }
+
+
 .featured-box-flex-image .box-header img{
 	height: 100%;
 	max-height: 100%;
@@ -539,6 +541,8 @@ padding: 10px;
 .featured-box-flex .box-desc {
 	text-align: right;
 	text-align: center;
+	max-height: 110px;
+	overflow: hidden;
 }
 .featured-box-flex .box-location {
 	text-align: center;
@@ -2955,13 +2959,14 @@ form.form-listing .inner-box .wrap-listing.fax,
 form.form-listing .inner-box .wrap-listing.area,
 form.form-listing .inner-box .wrap-listing.phone-half,
 form.form-listing .inner-box .wrap-listing.category-half,
-
 form.form-listing .inner-box .wrap-listing.select-area,
 form.form-listing .inner-box .wrap-listing.half,
 form.form-listing .inner-box .one-half:nth-child(2) {
-	padding-right: 15px;
+	padding-left: 15px;
 }
-
+.location  {
+		padding-left: 15px;
+}
 form.form-listing .inner-box .wrap-listing.price-from {
 	padding-left: 10px;
 }
@@ -3008,7 +3013,7 @@ form.form-listing .inner-box .one-half .info-business .item {
 }
 
 form.form-listing .inner-box .one-half .info-business .item .date {
-	padding-right: 31px;
+	padding-left: 150px;
 	font-weight: 400;
 }
 
@@ -3023,7 +3028,7 @@ form.form-listing .inner-box .one-half .info-business .item .month {
 
 form.form-listing .inner-box .one-half .info-business .item .line {
 	position: absolute;
-	right: 309px;
+   right: 309px;
 }
 
 form.form-listing .inner-box .one-half .info-business .item .hour-to {
@@ -3596,4 +3601,8 @@ color: white;
 .imageGallery1 img {
 	width: 150px;
 	height: 150px;
+}
+.overflow-scroll {
+	height: 600px;
+	overflow: auto;
 }

@@ -16,7 +16,7 @@
 	}
 
 	.pdmap {
-		padding-left: 0px;
+		padding-left: 15px;
 	}
 
 }
@@ -203,17 +203,16 @@
 	}
 
 	form.form-listing .inner-box .one-half .info-business .item .hour-from {
-		left: 150px;
+	left: 150px;
 	}
 
 	form.form-listing .inner-box .one-half .info-business .item .line {
-		left: 220px;
+		left: 0px;
 	}
 
 	.wrap-box-search.style2 {
 		margin: 0px !important;
 	}
-
 
 	.wrap-box-search.style2.v2 form > span.categories {
 		margin-top: 0px !important;
@@ -428,7 +427,7 @@
 	}
 
 	form.form-listing .inner-box .one-half .info-business .item .line {
-		left: 320px;
+		left: 80px;
 	}
 
 	form.form-listing .inner-box .browse {
@@ -438,11 +437,16 @@
 
 /* Tablet Landscape */
  @media only screen and (min-width : 768px) and (max-width : 991px) and (orientation : landscape) {
-
+	 form.form-listing .inner-box .wrap-listing.category-half , form.form-listing .inner-box .wrap-listing.fax , form.form-listing .inner-box .wrap-listing.half {
+	 	padding-right: 0;
+	 }
  }
 
  /* Tablet Portrait Size */
 @media only screen and (max-width: 767px) {
+	form.form-listing .inner-box .wrap-listing.category-half , form.form-listing .inner-box .wrap-listing.fax , form.form-listing .inner-box .wrap-listing.half {
+		padding-right: 0;
+	}
 	.comment-respond form .comment-form-email,
 	.comment-respond form .comment-form-title {
 		float: none;
@@ -534,15 +538,32 @@
 	}
 
 	form.form-listing .inner-box .one-half .info-business .item .hour-from {
-		left: 150px;
+		right: 150px;
 	}
 
 	form.form-listing .inner-box .one-half .info-business .item .line {
-		left: 250px;
+		right: 250px;
 	}
 }
 
 @media only screen and (max-width: 600px) {
+	form.form-listing .inner-box .wrap-listing.your-name,
+	form.form-listing .inner-box .wrap-listing.website,
+	form.form-listing .inner-box .wrap-listing.fax,
+	form.form-listing .inner-box .wrap-listing.area,
+	form.form-listing .inner-box .wrap-listing.phone-half,
+	form.form-listing .inner-box .wrap-listing.category-half,
+	form.form-listing .inner-box .wrap-listing.select-area,
+	form.form-listing .inner-box .wrap-listing.half,
+	form.form-listing .inner-box .one-half:nth-child(2) {
+		padding-left: 0;
+	}
+	.location  {
+			padding-left: 0;
+	}
+	form.form-listing .inner-box .wrap-listing.category-half , form.form-listing .inner-box .wrap-listing.fax , form.form-listing .inner-box .wrap-listing.half {
+		padding-right: 0;
+	}
 	.login-form {
 		width: 90%;
 	}
