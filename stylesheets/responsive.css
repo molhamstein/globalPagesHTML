@@ -130,7 +130,7 @@
 	}
 
 	.wrap-box-search form > span input, .wrap-box-search form > span select {
-		border-color: #4ca1af;
+		border-color: #ffd400;
 		height: 50px;
 		background: #fff;
 	}
@@ -157,7 +157,7 @@
 	}
 
 	.wrap-filter-search form > span input, .wrap-filter-search form > span select {
-		border-color: #4ca1af;
+		border-color: #ffd400;
 		height: 50px;
 		background: #fff;
 	}

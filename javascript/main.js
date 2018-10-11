@@ -271,7 +271,7 @@
                                         overlay:{
                                             address:val.address,
                                             options:{
-                                                content:  "<div class='infobox style2'><div class='img-box'><img src='images/icon/icon-map-01.png'></div><div class='text'><h3>AN Restaurant</h3><p>2/51 Hoang Cau Street,<br />Ha Noi, Viet Nam</p></div><div class='clearfix'></div></div>",
+                                                content:  "<div class='infobox style2'><div class='img-box'><img src='images/icon/icon-map-01.jpg'></div><div class='text'><h3>مطعم الشعله</h3><p>دمشق الروضه دخله بيجز</p></div><div class='clearfix'></div></div>",
                                                 offset:{
                                                     y:-200,
                                                     x:-115
@@ -843,7 +843,7 @@
                                         overlay:{
                                             address:val.address,
                                             options:{
-                                                content:  "<div class='infobox style2'><div class='img-box'><img src='images/icon/icon-map-01.png'></div><div class='text'><h3>AN Restaurant</h3><p>2/51 Hoang Cau Street,<br />Ha Noi, Viet Nam</p></div><div class='clearfix'></div></div>",
+                                                content:  "<div class='infobox style2'><div class='img-box'><img src='images/icon/icon-map-01.jpg'></div><div class='text'><h3>مطعم الشعله</h3><p>دمشق الروضه دخله بيجز</p></div><div class='clearfix'></div></div>",
                                                 offset:{
                                                     y:-200,
                                                     x:-115

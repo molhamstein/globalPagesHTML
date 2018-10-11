@@ -188,7 +188,7 @@ a {
 
 a:hover,
 a:focus {
-	color: #4ca1af;
+	color: #ffd400;
 	text-decoration: none;
 	outline: 0;
 	-webkit-transition: all 0.3s ease-in-out;
@@ -226,7 +226,7 @@ input[type="submit"] {
     line-height: 48px;
     font-size: 14px;
     color: #fff;
-    background: #4ca1af;
+    background: #ffd400;
     -webkit-border-radius: 20px;
     -ms-border-radius: 20px;
     -o-border-radius: 20px;
@@ -255,7 +255,7 @@ button.search-submit-form {
     line-height: 31px;
     font-size: 14px;
     border-color: transparent;
-    border-right: 1px solid #4ca1af;
+    border-right: 1px solid #ffd400;
     text-transform: uppercase;
     font-weight: 700;
     border-radius: 0;
@@ -288,7 +288,7 @@ input[type="email"] {
     line-height: 24px;
     padding: 8px 18px;
     color: #2c3e50;
-    border: 1px solid #4ca1af;
+    border: 1px solid #ffd400;
     height: 48px;
     background-color: transparent;
     margin-bottom: 19px;
@@ -309,7 +309,7 @@ input[type="search"] {
 input[type="email"] {
     padding: 8px 14px;
     color: #2c3e50;
-    border: 1px solid #4ca1af;
+    border: 1px solid #ffd400;
     margin-bottom: 20px;
 }
 
@@ -328,7 +328,7 @@ input[type="url"]:focus,
 input[type="search"]:focus,
 input[type="tel"]:focus,
 input[type="color"]:focus {
-	border: 1px solid #4ca1af;
+	border: 1px solid #ffd400;
 	-webkit-box-shadow: none;
 	   -moz-box-shadow: none;
 			box-shadow: none;
@@ -497,7 +497,7 @@ h4 { font-size: 16px; line-height: 24px; }
 
 #logo a {
 	font-size: 30px;
-	color: #4ca1af;
+	color: #ffd400;
 	font-family: 'Cairo';
 	font-weight: bold;
 }
@@ -575,7 +575,7 @@ h4 { font-size: 16px; line-height: 24px; }
 }
 
 #mainnav .menu > li > .submenu > li > a:hover {
-	background-color: #4ca1af;
+	background-color: #ffd400;
 	color: #fff;
 	padding-left: 25px;
 }
@@ -667,7 +667,7 @@ h4 { font-size: 16px; line-height: 24px; }
 .btn-menu:before,
 .btn-menu:after,
 .btn-menu span {
-	background-color: #4ca1af;
+	background-color: #ffd400;
     -webkit-transition: all ease .238s;
        -moz-transition: all ease .238s;
             transition: all ease .238s;
@@ -751,10 +751,10 @@ h4 { font-size: 16px; line-height: 24px; }
 }
 
 .button-header a {
-	color: #4ca1af;
+	color: #ffd400;
 	font-size: 16px;
 	padding: 12px 25px;
-	border: 1px solid #4ca1af;
+	border: 1px solid #ffd400;
 	border-radius: 25px;
 	position: relative;
 	display: block;
@@ -767,7 +767,7 @@ h4 { font-size: 16px; line-height: 24px; }
 .button-header a:before {
 	content: '';
 	position: absolute;
-	background-color: #4ca1af;
+	background-color: #ffd400;
 	width: 100%;
 	height: 100%;
 	top: 0;
@@ -789,7 +789,7 @@ h4 { font-size: 16px; line-height: 24px; }
 }
 
 .button-header a:hover {
-	background-color: #4ca1af;
+	background-color: #ffd400;
 	color: #fff;
 }
 
@@ -923,7 +923,7 @@ article.blog-post .featured-post a .overlay {
 	left: 0;
 	top: 0;
 	opacity: 0;
-	background-color: rgba(76, 161, 175, 0.5);
+	background-color: rgba(255, 212, 0, 0.5);
 	-webkit-transition: all 0.3s ease-in-out;
 	   -moz-transition: all 0.3s ease-in-out;
 		-ms-transition: all 0.3s ease-in-out;
@@ -1068,7 +1068,7 @@ footer {
 	font-size: 30px;
 	font-family: 'Cairo';
 	font-weight: bold;
-	color: #4ca1af;
+	color: #ffd400;
 	line-height: 72px;
 }
 
@@ -1098,7 +1098,7 @@ footer {
 }
 
 .widget-categories ul.one-half li a:hover {
-	color: #4ca1af;
+	color: #ffd400;
 }
 
 /* Widget Contact */
@@ -1411,7 +1411,7 @@ article.post-single .entry-post .entry-header .entry-meta-post li.topic {
 
 .comment-area .load-more a:hover {
 	color: #fff;
-	background-color: #4ca1af;
+	background-color: #ffd400;
 }
 
 /* Comment Respond */
@@ -1494,8 +1494,8 @@ article.post-single .entry-post .entry-header .entry-meta-post li.topic {
     width: 100%;
     height: 100%;
     border-radius: 30px;
-	background: #4ca1af;
-    border: 0px solid #4ca1af;
+	background: #ffd400;
+    border: 0px solid #ffd400;
     opacity: 1;
     visibility: visible;
     z-index: -2;
@@ -1614,7 +1614,7 @@ article.post-single .entry-post .entry-header .entry-meta-post li.topic {
 	content: "";
 	display: block;
 	border-radius: 50%;
-	border: 2px solid #4ca1af;
+	border: 2px solid #ffd400;
 	position: absolute;
 	top: 50%;
 	left: 50%;

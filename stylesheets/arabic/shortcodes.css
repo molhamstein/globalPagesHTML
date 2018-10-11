@@ -124,8 +124,8 @@
     width: 100%;
     height: 100%;
     border-radius: 30px;
-	background: #4ca1af;
-    border: 0px solid #4ca1af;
+	background: #ffd400;
+    border: 0px solid #ffd400;
     opacity: 1;
     visibility: visible;
     z-index: -2;
@@ -206,7 +206,7 @@
 	left: 50%;
 	height: 2px;
 	width: 80px;
-	background-color: #4ca1af;
+	background-color: #ffd400;
 	transform: translateX(-50%) scaleX(0);
 	-webkit-transition: all 0.3s ease-in-out;
     -moz-transition: all 0.3s ease-in-out;
@@ -307,7 +307,7 @@
 	left: 0;
 	border-top-left-radius: 8px;
 	border-top-right-radius: 8px;
-	background-color: rgba(76, 161, 175, 0.9);
+	background-color: rgba(255, 212, 0, 0.9);
 	z-index: 9;
 	opacity: 0;
 	-webkit-transition: all 0.3s ease-in-out;
@@ -429,7 +429,7 @@
 
 .imagebox ul.location li.open {
 	text-align: right;
-	color: #4ca1af;
+	color: #ffd400;
 	font-weight: 400;
 }
 
@@ -452,7 +452,7 @@
 	top: 0;
 	left: 0;
 	opacity: 0;
-	background-color: rgba(76, 161, 175, 0.5);
+	background-color: rgba(255, 212, 0, 0.5);
 	-webkit-transition: all 0.3s ease-in-out;
 	-moz-transition: all 0.3s ease-in-out;
 	-ms-transition: all 0.3s ease-in-out;
@@ -779,7 +779,7 @@
 }
 
 .filter-result ul.arrange li.active {
-	color: #4ca1af;
+	color: #ffd400;
 }
 
 /* Filter Style2 */
@@ -842,7 +842,7 @@
 /* Flat Text Title
 -------------------------------------------------------------- */
 .flat-text-title {
-	background-color: #4ca1af;
+	background-color: #ffd400;
 	padding: 74px 0 77px;
 }
 
@@ -922,8 +922,8 @@
     width: 100%;
     height: 100%;
     border-radius: 30px;
-	background: #4ca1af;
-    border: 0px solid #4ca1af;
+	background: #ffd400;
+    border: 0px solid #ffd400;
     opacity: 1;
     visibility: visible;
     z-index: -2;
@@ -1025,7 +1025,7 @@
 	position: absolute;
 	z-index: 1;
 	font-size: 100px;
-	color: #4ca1af;
+	color: #ffd400;
 	font-family: 'Playfair Display';
 	opacity: 0.1;
 	top: -10px;
@@ -1085,7 +1085,7 @@
 
 .price-box .price-title {
 	height: 60px;
-	background-color: #4ca1af;
+	background-color: #ffd400;
 	box-shadow: 0px 10px 27px 0px rgba(0, 0, 0, 0.23);
 }
 
@@ -1164,7 +1164,7 @@
     height: 50px;
     line-height: 54px;
     display: inline-block;
-    color: #4ca1af;
+    color: #ffd400;
 }
 
 .price-box.free .price-content .btn-more a:hover,
@@ -1175,7 +1175,7 @@
 .price-box.free .price-content .btn-more a:before,
 .price-box.professional .price-content .btn-more a:before {
 	background-color: transparent;
-	border: 1px solid #4ca1af;
+	border: 1px solid #ffd400;
 }
 
 .price-box.basic .price-content .btn-more {
@@ -1220,7 +1220,7 @@
 }
 
 .wrap-error .btn-more a:not(:hover) {
-	color: #4ca1af;
+	color: #ffd400;
 }
 
 .wrap-error .btn-more a:before {
@@ -1232,7 +1232,7 @@
 -------------------------------------------------------------- */
 .flat-count {
 	padding: 143px 0;
-	background: url('../images/parallax/01.png') top center repeat;
+	background: url('../images/parallax/01.jpg') top center repeat;
 }
 
 .flat-count .container,
@@ -1248,11 +1248,11 @@
 	left: 0;
 	width: 100%;
 	height: 100%;
-	background: rgba(76, 161, 175, 0.9); /* For browsers that do not support gradients */
-	background: -webkit-linear-gradient(-90deg, rgba(76, 161, 175, 0.9), rgba(44, 62, 80, 0.9)); /* For Safari 5.1 to 6.0 */
-	background: -o-linear-gradient(-90deg, rgba(76, 161, 175, 0.9), rgba(44, 62, 80, 0.9)); /* For Opera 11.1 to 12.0 */
-	background: -moz-linear-gradient(-90deg, rgba(76, 161, 175, 0.9), rgba(44, 62, 80, 0.9)); /* For Firefox 3.6 to 15 */
-	background: linear-gradient(-90deg, rgba(76, 161, 175, 0.9), rgba(44, 62, 80, 0.9)); /* Standard syntax */
+	background: rgba(255, 212, 0, 0.9); /* For browsers that do not support gradients */
+	background: -webkit-linear-gradient(-90deg, rgba(255, 212, 0, 0.9), rgba(237, 182, 0, 0.9)); /* For Safari 5.1 to 6.0 */
+	background: -o-linear-gradient(-90deg, rgba(255, 212, 0, 0.9), rgba(237, 182, 0, 0.9)); /* For Opera 11.1 to 12.0 */
+	background: -moz-linear-gradient(-90deg, rgba(255, 212, 0, 0.9), rgba(237, 182, 0, 0.9)); /* For Firefox 3.6 to 15 */
+	background: linear-gradient(-90deg, rgba(255, 212, 0, 0.9), rgba(237, 182, 0, 0.9)); /* Standard syntax */
 }
 
 /* Wrap Count */
@@ -1544,7 +1544,7 @@
 	height: 90px;
 	width: 90px;
 	line-height: 86px;
-	background-color: #4ca1af;
+	background-color: #ffd400;
 	color: #fff;
 	font-size: 48px;
 	font-weight: bold;
@@ -2102,7 +2102,7 @@ form.form-listing .inner-box .browse .upload {
 
 form.form-listing .inner-box .browse .upload span {
 	cursor: pointer;
-	background-color: #4ca1af;
+	background-color: #ffd400;
 	color: #fff;
 	font-size: 16px;
 	font-weight: 400;
@@ -2472,11 +2472,11 @@ form.form-listing .inner-box button.submit-form-listing:hover {
 	left: 0;
 	width: 100%;
 	height: 100%;
-	background: rgba(76, 161, 175, 0.9); /* For browsers that do not support gradients */
-	background: -webkit-linear-gradient(-90deg, rgba(76, 161, 175, 0.9), rgba(44, 62, 80, 0.9)); /* For Safari 5.1 to 6.0 */
-	background: -o-linear-gradient(-90deg, rgba(76, 161, 175, 0.9), rgba(44, 62, 80, 0.9)); /* For Opera 11.1 to 12.0 */
-	background: -moz-linear-gradient(-90deg, rgba(76, 161, 175, 0.9), rgba(44, 62, 80, 0.9)); /* For Firefox 3.6 to 15 */
-	background: linear-gradient(-90deg, rgba(76, 161, 175, 0.9), rgba(44, 62, 80, 0.9)); /* Standard syntax */
+	background: rgba(255, 212, 0, 0.9); /* For browsers that do not support gradients */
+	background: -webkit-linear-gradient(-90deg, rgba(255, 212, 0, 0.9), rgba(237, 182, 0, 0.9)); /* For Safari 5.1 to 6.0 */
+	background: -o-linear-gradient(-90deg, rgba(255, 212, 0, 0.9), rgba(237, 182, 0, 0.9)); /* For Opera 11.1 to 12.0 */
+	background: -moz-linear-gradient(-90deg, rgba(255, 212, 0, 0.9), rgba(237, 182, 0, 0.9)); /* For Firefox 3.6 to 15 */
+	background: linear-gradient(-90deg, rgba(255, 212, 0, 0.9), rgba(237, 182, 0, 0.9)); /* Standard syntax */
 }
 
 .parallax .container {
@@ -2491,7 +2491,7 @@ form.form-listing .inner-box button.submit-form-listing:hover {
 	background-size: cover;
 }
 
-.parallax1 { background-image: url('../images/parallax/01.png'); }
+.parallax1 { background-image: url('../images/parallax/01.jpg'); }
 
 /* Go Top
 ---------------------------------------------------------------*/
@@ -2499,7 +2499,7 @@ form.form-listing .inner-box button.submit-form-listing:hover {
 	position: fixed !important;
 	bottom: 20px;
 	right: 20px;
-	background-color: #4ca1af;
+	background-color: #ffd400;
 	border-radius: 3px;
 	line-height: 40px;
 	width: 40px;
